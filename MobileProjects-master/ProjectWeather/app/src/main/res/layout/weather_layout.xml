@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/weatherView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_dark"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:id="@+id/firstPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/weatherTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/pic"
+                android:layout_alignTop="@id/pic"
+                android:layout_alignRight="@id/pic"
+                android:layout_alignBottom="@id/pic"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:textSize="80dp"
+                android:textStyle="bold"
+                tools:text="23°C" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/secondtPart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weatherDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:textColor="@color/primary_light"
+                android:textSize="40sp"
+                tools:text="Rainy and Drizzle" />
+
+            <TextView
+                android:id="@+id/weatherCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/primary_light"
+                android:textSize="23dp"
+                tools:text="Raining" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdPart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:textColor="@color/primary_light"
+                android:textSize="40sp"
+                tools:text="Toronto" />
+
+            <TextView
+                android:id="@+id/wCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/primary_light"
+                android:textSize="23sp"
+                tools:text="Canada" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/locoButt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/change_loco" />
+    </LinearLayout>
+</LinearLayout>
+

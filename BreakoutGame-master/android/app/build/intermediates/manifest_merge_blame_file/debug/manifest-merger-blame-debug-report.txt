@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="processing.test.breakout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:3:5-46
+8        android:minSdkVersion="17"
+8-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:3:5-46
+9        android:targetSdkVersion="26" />
+9-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:3:15-44
+10
+11    <application
+11-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:4:5-11:19
+12        android:debuggable="true"
+13        android:icon="@drawable/icon"
+13-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:4:18-47
+14        android:label="breakout"
+14-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:4:48-72
+15        android:testOnly="true" >
+16        <activity
+16-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:5:9-10:20
+17            android:name="processing.test.breakout.MainActivity"
+17-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:5:19-47
+18            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+18-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:5:48-115
+19            <intent-filter>
+19-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:6:13-9:29
+20                <action android:name="android.intent.action.MAIN" />
+20-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:7:17-68
+20-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:7:25-66
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:8:17-76
+22-->C:\Users\4shr4\OneDrive\Desktop\native android\BreakoutGame-master\android\app\src\main\AndroidManifest.xml:8:27-74
+23            </intent-filter>
+24        </activity>
+25
+26        <meta-data
+26-->[com.android.support:design:26.0.2] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\66f79b655ec8cbfafd3fd07b81a20846\design-26.0.2\AndroidManifest.xml:26:9-28:38
+27            android:name="android.support.VERSION"
+27-->[com.android.support:design:26.0.2] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\66f79b655ec8cbfafd3fd07b81a20846\design-26.0.2\AndroidManifest.xml:27:13-51
+28            android:value="26.0.2" />
+28-->[com.android.support:design:26.0.2] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\66f79b655ec8cbfafd3fd07b81a20846\design-26.0.2\AndroidManifest.xml:28:13-35
+29
+30        <uses-library
+30-->[com.google.android.support:wearable:2.1.0] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\902cf6bb019c71247c183042206974ee\wearable-2.1.0\AndroidManifest.xml:10:9-12:40
+31            android:name="com.google.android.wearable"
+31-->[com.google.android.support:wearable:2.1.0] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\902cf6bb019c71247c183042206974ee\wearable-2.1.0\AndroidManifest.xml:11:13-55
+32            android:required="false" />
+32-->[com.google.android.support:wearable:2.1.0] C:\Users\4shr4\.gradle\caches\transforms-2\files-2.1\902cf6bb019c71247c183042206974ee\wearable-2.1.0\AndroidManifest.xml:12:13-37
+33    </application>
+34
+35</manifest>
