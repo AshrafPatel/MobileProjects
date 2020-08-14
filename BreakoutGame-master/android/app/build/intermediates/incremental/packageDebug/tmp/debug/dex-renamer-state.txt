@@ -1,4 +1,0 @@
-#Sat Jun 20 16:51:33 EDT 2020
-base.0=C\:\\Users\\4shr4\\OneDrive\\Desktop\\native android\\BreakoutGame-master\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
